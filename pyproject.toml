@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "itsadryheat"
+version = "0.1.0"
+description = ""
+authors = ["sthysel <sthysel@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "<3.13,>=3.9,!=3.9.7"
+pandas = "^2.1.1"
+streamlit = "^1.27.2"
+geopy = "^2.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
